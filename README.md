@@ -1,24 +1,25 @@
-# README
+## Deploy App
+http://rails-api-jwt.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Ruby version
 
-* Ruby version
+  Ruby 2.7.1
+  
+## Rails version
 
-* System dependencies
+  Rails 6.0.2.2 > 
+  
+## Getting Started
 
-* Configuration
+* Clone this repo ```git clone https://github.com/MathewsMacedo/rails-api-jwt```
 
-* Database creation
+## System dependencies
 
-* Database initialization
+* ```bundle install``` to install all required dependencies
 
-* How to run the test suite
+## How to run 
 
-* Services (job queues, cache servers, search engines, etc.)
+* ```rails server``` to start the local server
+* ```localhost:3000``` to open  in your browser 
 
-* Deployment instructions
-
-* ...
