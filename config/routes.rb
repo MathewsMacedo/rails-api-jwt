@@ -4,12 +4,14 @@ Rails.application.routes.draw do
     namespace :restrito do
       namespace :v1 do
         namespace :auth do
-          post '/auth/login', to: 'authentication#login'
+          post '/login', to: 'authentication#login'
+        end
+        namespace :user do
+          resources :users, param: :_username
         end
       end
     end
   end
-    resources :users, param: :_username
     get '/*a', to: 'application#not_found'
 
 end
