@@ -1,7 +1,8 @@
 class ApplicationController < ActionController::API
 
     def not_found
-        render json: { error: 'Not Found 404' }
+        redirect_to root_path
+        #render json: { error: 'Not Found 404' }
       end
     
       def authorize_request
